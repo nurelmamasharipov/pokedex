@@ -44,7 +44,7 @@ class PokemonCard extends StatelessWidget {
               Align(
                 alignment: const Alignment(0, 1),
                 child: Container(
-                  color: Colors.green,
+                  color: color,
                   height: 24,
                   width: double.infinity,
                   child: Text(name ?? '', style: TextStyle(color: Colors.white),

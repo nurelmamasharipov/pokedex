@@ -10,6 +10,12 @@ class PokemonModel{
   final int hp;
   final int atk;
   final String description;
+  final String name;
+  final String type;
+  final int def;
+  final int satk;
+  final int sdef;
+  final int spd;
 
   const PokemonModel(
      this.color,
@@ -19,6 +25,12 @@ class PokemonModel{
      this.moves,
      this.weight,
       this.atk,
-      this.hp
+      this.hp,
+      this.name,
+      this.type,
+      this.def,
+      this.satk,
+      this.sdef,
+      this.spd
   );
 }
